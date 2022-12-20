@@ -1,0 +1,14 @@
+Model 1: Decision Tree
+features: ["Pclass", "Sex", "Age", "Fare"]
+parameters: {max_leaf_nodes=7}
+performance metric: accuracy
+train set score: 0.82
+cross validation score: 0.81
+
+
+Model 2: Random Forest (selected model)
+features: ["Pclass", "Sex", "Age", "Fare"]
+parameters: {max_leaf_nodes=30}
+performance metric: accuracy
+train set score: 0.89
+cross validation score: 0.84
